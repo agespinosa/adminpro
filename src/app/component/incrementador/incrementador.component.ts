@@ -16,7 +16,7 @@ export class IncrementadorComponent implements OnInit {
 
   @Output() cambioValor: EventEmitter<number>= new EventEmitter();
 
-  constructor() { 
+  constructor() {
     // console.log('Leyenda: ', this.leyenda);
     // console.log('Progreso: ', this.progreso);
 

@@ -11,8 +11,9 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
-/* Temporal*/
+
 import { FormsModule } from '@angular/forms';
+import { ServiceModule } from './services/service.module';
 
 
 
@@ -30,6 +31,7 @@ import { FormsModule } from '@angular/forms';
     PagesModule,
     APP_ROUTES,
     FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
